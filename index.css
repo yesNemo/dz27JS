@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+body{
+    background-color: silver;
+}
+.dz1{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    margin: 30px;
+}
+.dz1 >div{
+    text-align: center;
+}
+.dz2{
+    /*margin: 0 auto;*/
+}
+.dz2 > button{
+    display: block;
+   margin: 50px auto;
+    padding: 15px;
+    background-color: #3b3b69;
+    color: #98767d;
+    border-radius: 15px;
+}
+.dz2 >button:active{
+    background-color: #6161b0;
+}
+.superWindow{
+  width: 500px;
+    height: 450px;
+    background-color: wheat;
+    position: absolute;
+    display: none;
+    left: 50%;
+    transform: translate(-50%);
+    border: black 1px solid;
+    padding: 20px;
+}
+.superWindow p{
+padding:10px 0;
+    font-family: Arial;
+}
+#closeButton{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    position: absolute;
+}
+#closeButton:active{
+background-color: blueviolet;
+}
+.colorForCar{
+    height: 300px;
+    width: 150px;
+    border: 5px black solid;
+    border-radius: 25%  ;
+}
+.colorForCar{
+    margin: 100px auto;
+    /*margin-top: 100px;*/
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+li{
+    width: 80px;
+    height: 80px;
+    /*border: 1px purple solid;*/
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+}
+#buttonColor{
+    display: block;
+    margin: 0 auto;
+}
+.dz3{
+    margin: 50px;
+}
+.dz3 >div{
+    margin-bottom: 20px;
+}
+body > div{
+    border: 1px black solid;
+}
